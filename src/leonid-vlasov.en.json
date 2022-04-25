@@ -27,7 +27,7 @@
   },
   "work": [
     {
-      "name": "Eldis-soft",
+      "company": "Eldis-soft",
       "position": "Scala Software engineer",
       "startDate": "2020-04-30",
       "endDate": "",
@@ -46,11 +46,11 @@
       "location": "Novosibirsk, Russia"
     },
     {
-      "name": "FG BCS",
+      "company": "FG BCS",
       "position": "Senior Software Engineer",
       "startDate": "2018-04-30",
       "endDate": "2020-04-30",
-      "summary": "I worked as a senior engineer in a system integration team. BCS is the biggest Russian stockbroker with a developed and high-loaded information system. My main responsibility was to develop integration utilities and to maintain of consistency of shared data types.",
+      "summary": "I worked as a senior engineer in a system integration team. BCS is the biggest Russian stockbroker with a developed and high-loaded information system. My main responsibilities ware to develop integration utilities and to maintain of consistency of shared data types.",
       "highlights": [
         "System integration",
         "1C:Enterprise",
@@ -64,17 +64,16 @@
       "location": "Novosibirsk, Russia"
     },
     {
-      "name": "Siberian Investment Group",
+      "company": "Siberian Investment Group",
       "position": "Senior Software Engineer",
       "startDate": "2012-01-31",
       "endDate": "2018-04-30",
-      "summary": "I worked as a software developer and support software engineer mostly for the accounting division support.",
+      "summary": "I worked as a software developer and support software engineer mostly for an accounting subdivisions.",
       "highlights": [
         "System integration",
         "1C:Enterprise",
         "Ruby",
         "SQL",
-        "Oracle DB",
         "Bash",
         "Git"
       ],
@@ -110,7 +109,7 @@
     {
       "name": "Software development",
       "level": "",
-      "keywords": ["Functional Programming", "Test automation", "CI/CD", "Clear code"]
+        "keywords": ["Functional programming", "Test automation", "CI/CD", "Clean code"]
     },
     {
       "name": "DevOps",
