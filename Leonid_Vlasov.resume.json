@@ -1,0 +1,175 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Leonid Vlasov",
+    "label": "Scala with Cats developer",
+    "image": "",
+    "email": "leoniv.vlasov@gmail.com",
+    "phone": "",
+    "url": "",
+    "summary": "",
+    "location": {
+      "countryCode": "RU",
+      "address": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "ACoAAB2rWr8BNvAYgBoLiRcNCbR-IVH4wTcATb0",
+        "url": "https://www.linkedin.com/in/ACoAAB2rWr8BNvAYgBoLiRcNCbR-IVH4wTcATb0/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Eldis-soft",
+      "position": "Software Engineer",
+      "startDate": "2020-04-30",
+      "endDate": "",
+      "highlights": [],
+      "summary": "Backend software engineer powered by amazing Scala language with brilliant pure functional framework Cats.",
+      "url": "",
+      "location": "Novosibirsk, Russia"
+    },
+    {
+      "name": "FG BCS",
+      "position": "Senior Software Engineer",
+      "startDate": "2018-04-30",
+      "endDate": "2020-04-30",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/fg-bcs/",
+      "location": "Novosibirsk, Russia"
+    },
+    {
+      "name": "OOO СибИнвестГруп",
+      "position": "Ведущий инженер-программист",
+      "startDate": "2012-01-31",
+      "endDate": "2018-04-30",
+      "highlights": [],
+      "url": ""
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Bratsk State University",
+      "area": "Information Technology",
+      "studyType": "Engineer's degree",
+      "startDate": "2004-08-31",
+      "endDate": "2007-12-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Software Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Back-End Web Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Project Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Engineering",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Scala",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Internet Protocol Suite (TCP/IP)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Functional Programming",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Test Automation",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "REST APIs",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "XML Schema Definition (XSD)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Ruby",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bash",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microservices",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "ru",
+      "fluency": "Native Speaker"
+    },
+    {
+      "fluency": "Professional Working",
+      "language": "English"
+    },
+    {
+      "fluency": "Native Speaker",
+      "language": "Russian"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
