@@ -1,33 +1,50 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "meta": {
+    "theme": "elegant"
+  },
   "basics": {
     "name": "Leonid Vlasov",
-    "label": "Scala with Cats developer",
-    "image": "",
+    "label": "Scala Software Engineer",
+    "image": "https://avatars.githubusercontent.com/u/5810577?v=4",
     "email": "leoniv.vlasov@gmail.com",
     "phone": "",
     "url": "",
-    "summary": "",
+    "summary": "Professional software engineer with 15 year of experience and ability to solve challenging problems in the software development field. I am good at working in a team and I consider myself as a responsible, hard-working and ambitious specialist. I am on the top of up to date technologies, tools and the best practice which are taken by the software professionals' community.",
     "location": {
       "countryCode": "RU",
-      "address": ""
+      "city": "Novosibirsk"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "ACoAAB2rWr8BNvAYgBoLiRcNCbR-IVH4wTcATb0",
-        "url": "https://www.linkedin.com/in/ACoAAB2rWr8BNvAYgBoLiRcNCbR-IVH4wTcATb0/"
+        "username": "leoniv",
+        "url": "https://www.linkedin.com/in/leoniv/"
+      },
+      {
+        "url": "https://github.com/leoniv",
+        "username": "leoniv",
+        "network": "github"
       }
     ]
   },
   "work": [
     {
       "name": "Eldis-soft",
-      "position": "Software Engineer",
+      "position": "Scala Software engineer",
       "startDate": "2020-04-30",
       "endDate": "",
-      "highlights": [],
-      "summary": "Backend software engineer powered by amazing Scala language with brilliant pure functional framework Cats.",
+      "highlights": [
+        "Functional programming",
+        "Scala",
+        "Cats",
+        "doobie",
+        "fs2",
+        "http4s",
+        "PostgreSQL",
+        "Java"
+      ],
+      "summary": "I worked as a back-end Scala developer and a project lead. Our team created business services and single-page web applications based on REST. Nothing unusual, but we used a functional approach, particularly Scala with Cats.",
       "url": "",
       "location": "Novosibirsk, Russia"
     },
@@ -36,16 +53,34 @@
       "position": "Senior Software Engineer",
       "startDate": "2018-04-30",
       "endDate": "2020-04-30",
-      "highlights": [],
-      "url": "https://www.linkedin.com/company/fg-bcs/",
+      "summary": "I worked as a senior engineer in a system integration team. BCS is the biggest Russian stockbroker with a developed and high-loaded information system. My main responsibility was to develop integration utilities and to maintain of consistency of shared data types.",
+      "highlights": [
+        "System integration",
+        "1C:Enterprise",
+        "High load",
+        "SOAP",
+        "XML Schema Definition (XSD)",
+        "REST",
+        "SQL"
+      ],
+      "url": "",
       "location": "Novosibirsk, Russia"
     },
     {
-      "name": "OOO СибИнвестГруп",
-      "position": "Ведущий инженер-программист",
+      "name": "Siberian Investment Group",
+      "position": "Senior Software Engineer",
       "startDate": "2012-01-31",
       "endDate": "2018-04-30",
-      "highlights": [],
+      "summary": "I worked as a software developer and support software engineer mostly for the accounting division support.",
+      "highlights": [
+        "System integration",
+        "1C:Enterprise",
+        "Ruby",
+        "SQL",
+        "Oracle DB",
+        "Bash",
+        "Git"
+      ],
       "url": ""
     }
   ],
@@ -153,23 +188,12 @@
   ],
   "languages": [
     {
-      "language": "ru",
-      "fluency": "Native Speaker"
+      "fluency": "Native Speaker",
+      "language": "Russian"
     },
     {
       "fluency": "Professional Working",
       "language": "English"
-    },
-    {
-      "fluency": "Native Speaker",
-      "language": "Russian"
     }
-  ],
-  "interests": [],
-  "references": [],
-  "projects": [],
-  "meta": {
-    "version": "v1.0.0",
-    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
-  }
+  ]
 }
