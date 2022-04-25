@@ -1,0 +1,7 @@
+#!/bin/env bash
+
+set -e
+
+~/node_modules/.bin/resume export --theme onepage -r src/leonid-vlasov.en.json leonid-vlasov.en.html &&\
+xhtml2pdf leonid-vlasov.en.html leonid-vlasov.en.pdf
+

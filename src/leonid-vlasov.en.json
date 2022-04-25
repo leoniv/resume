@@ -1,8 +1,5 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
-  "meta": {
-    "theme": "elegant"
-  },
   "basics": {
     "name": "Leonid Vlasov",
     "label": "Scala Software Engineer",
@@ -12,7 +9,7 @@
     "url": "",
     "summary": "Professional software engineer with 15 year of experience and ability to solve challenging problems in the software development field. I am good at working in a team and I consider myself as a responsible, hard-working and ambitious specialist. I am on the top of up to date technologies, tools and the best practice which are taken by the software professionals' community.",
     "location": {
-      "countryCode": "RU",
+      "countryCode": "Russia",
       "city": "Novosibirsk"
     },
     "profiles": [
@@ -101,89 +98,24 @@
   "publications": [],
   "skills": [
     {
-      "name": "Software Development",
+      "name": "Back-End",
       "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Back-End Web Development",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Project Management",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Engineering",
-      "level": "",
-      "keywords": []
+      "keywords": ["Scala", "SQL", "Ruby", "PostgreSQL", "XSD", "SOAP", "Java"]
     },
     {
       "name": "Scala",
       "level": "",
-      "keywords": []
+      "keywords": ["Cats", "doobie", "http4s", "fs2", "tapir", "sbt"]
     },
     {
-      "name": "SQL",
+      "name": "Software development",
       "level": "",
-      "keywords": []
+      "keywords": ["Functional Programming", "Test automation", "CI/CD", "Clear code"]
     },
     {
-      "name": "Internet Protocol Suite (TCP/IP)",
+      "name": "DevOps",
       "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Java",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Functional Programming",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Test Automation",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "REST APIs",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "XML Schema Definition (XSD)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Ruby",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Bash",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Git",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Microservices",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "PostgreSQL",
-      "level": "",
-      "keywords": []
+      "keywords": ["Nix", "GitLab/CI", "Docker", "Bash"]
     }
   ],
   "languages": [
