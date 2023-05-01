@@ -7,7 +7,7 @@
     "email": "leoniv.vlasov@gmail.com",
     "phone": "",
     "url": "",
-    "summary": "Professional software engineer with 15 years of experience and ability to solve challenging problems in the software development field. I am good at working in a team and I consider myself as a responsible, hard-working and ambitious specialist. I am on the top of up to date technologies, tools and the best practice which are taken by the software professionals' community.",
+    "summary": "Professional software engineer with more then 15 years of experience and ability to solve challenging problems in the software development field. I am good at working in a team and I consider myself as a responsible, hard-working and ambitious specialist. I am on the top of up to date technologies, tools and the best practice which are taken by the software professionals' community.",
     "location": {
       "countryCode": "Russia",
       "city": "Novosibirsk"
@@ -27,10 +27,31 @@
   },
   "work": [
     {
+      "company": "Tinkoff",
+      "position": "Software developer",
+      "startDate": "2023-04-24",
+      "endDate": "",
+      "highlights": [
+        "Functional programming",
+        "Scala",
+        "ZIO",
+        "Cats",
+        "doobie",
+        "fs2",
+        "Cassandra",
+        "PostgreSQL",
+        "Kafka",
+        "..."
+      ],
+      "summary": "Breathtaking journey through the universe of distributed high-loaded systems :)",
+      "url": "",
+      "location": "Novosibirsk, Russia"
+    },
+    {
       "company": "Eldis-soft",
       "position": "Scala Software engineer",
       "startDate": "2020-04-30",
-      "endDate": "",
+      "endDate": "2023-04-21",
       "highlights": [
         "Functional programming",
         "Scala",
