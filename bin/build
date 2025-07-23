@@ -2,6 +2,11 @@
 
 set -e
 
-./node_modules/.bin/resume export --theme onepage -r src/leonid-vlasov.en.json leonid-vlasov.en.html &&\
-cp leonid-vlasov.en.html docs/index.html
+if [ -z "$1" ]; then
+	echo usage: "$0 theme (onepage ...)"
+	exit 1
+fi
+
+./node_modules/.bin/resume export --theme $1 -r src/leonid-vlasov.en.json leonid-vlasov.en.pdf
+# cp leonid-vlasov.en.html docs/index.html
 

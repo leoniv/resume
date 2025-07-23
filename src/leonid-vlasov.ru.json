@@ -1,16 +1,16 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Leonid Vlasov",
-    "label": "Software Engineer",
+    "name": "Леонид Власов",
+    "label": "",
     "image": "https://avatars.githubusercontent.com/u/5810577?v=4",
     "email": "leoniv.vlasov@gmail.com",
     "phone": "",
     "url": "",
-    "summary": "I’m a business-value-oriented and open-minded software engineer with over 15 years of experience, passionate about cutting-edge technologies. I thrive in team environments and consider myself a responsible, hard-working, and ambitious professional. I stay up to date with modern tools, technologies, and best practices widely adopted by the software engineering community.",
+    "summary": "Я ориентированый на бизнес-ценности и открытый к новым идеям, опытный инженер-программист с более чем 15-летним стажем, увлечённый передовыми технологиями. Мне комфортно работать в команде, и я считаю себя ответственным, трудолюбивым и амбициозным специалистом. Я постоянно слежу за современными инструментами, технологиями и лучшими практиками, признанными профессиональным сообществом разработчиков.",
     "location": {
-      "countryCode": "Russia",
-      "city": "Novosibirsk"
+      "countryCode": "Россия",
+      "city": "Новосибирск"
     },
     "profiles": [
       {
@@ -67,16 +67,16 @@
       "location": "Novosibirsk, Russia"
     },
     {
-      "company": "FG BCS",
-      "position": "Senior Software Engineer",
+      "company": "БКС",
+      "position": "Ведущий инженер программист",
       "startDate": "2018-04-30",
       "endDate": "2020-04-30",
-      "summary": "I worked as a software engineer in the integration team, delivering business-critical data integration between back-office systems and the enterprise platform. I ensured stable data exchange and maintained high system performance.",
+      "summary": "Я работал инженером-программистом в команде интеграции, обеспечивая критически важную для бизнеса интеграцию данных между бэк-офисными системами и корпоративной платформой. Гарантировал стабильный обмен данными и поддерживал высокую производительность системы.",
       "highlights": [
-        "Developed and maintained reliable data exchange modules (export/import), ensuring uninterrupted data flow and stability of business operations.",
-        "Developed and maintained XSD schemas, ensuring smooth integration into BizTalk ESB without disrupting dependent components.",
-        "Optimized heavy SQL queries and indexing strategy, significantly improving system performance, data exchange, and business reporting.",
-        "Promoted automated testing practices within the team and helped colleagues adopt them."
+        "Разрабатывал и поддерживал надёжные модули обмена данными (выгрузка/загрузка), обеспечивая бесперебойный поток данных и стабильность бизнес-операций.",
+        "Разрабатывал и обновлял XSD схемы, обеспечивал их внедрение в BizTalk ESB с сохранением стабильной работы всех зависимых компонентов.",
+        "Оптимизировал тяжёлые SQL-запросы и стратегию индексации, что значительно ускоряло работу системы и улучшало обмена данными и создание бизнес-отчётности.",
+        "Продвигал практики автоматизированного тестирования в команде и помогал коллегам их освоить."
       ],
       "url": "",
       "location": "Novosibirsk, Russia"
