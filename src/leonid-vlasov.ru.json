@@ -1,20 +1,20 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "леонид власов",
+    "name": "Леонид Власов",
     "label": "",
     "image": "https://avatars.githubusercontent.com/u/5810577?v=4",
     "email": "leoniv.vlasov@gmail.com",
     "phone": "",
     "url": "",
-    "summary": "я ориентированный на бизнес-ценности и открытый к новым идеям, опытный инженер-программист с более чем 15-летним стажем, увлечённый передовыми технологиями. мне комфортно работать в команде, и я считаю себя ответственным, трудолюбивым и амбициозным специалистом. я постоянно слежу за современными инструментами, технологиями и лучшими практиками, признанными профессиональным сообществом разработчиков.",
+    "summary": "Я ориентированный на бизнес-ценности и открытый к новым идеям, опытный инженер-программист с более чем 15-летним стажем, увлечённый передовыми технологиями. Мне комфортно работать в команде, и я считаю себя ответственным, трудолюбивым и амбициозным специалистом. Я постоянно слежу за современными инструментами, технологиями и лучшими практиками, признанными профессиональным сообществом разработчиков.",
     "location": {
-      "countrycode": "россия",
-      "city": "новосибирск"
+      "countryCode": "Россия",
+      "city": "Новосибирск"
     },
     "profiles": [
       {
-        "network": "linkedin",
+        "network": "LinkedIn",
         "username": "leoniv",
         "url": "https://www.linkedin.com/in/leoniv/"
       },
@@ -27,102 +27,102 @@
   },
   "work": [
     {
-      "company": "tinkoff",
-      "position": "software developer",
-      "startdate": "2023-04-24",
-      "enddate": "",
+      "company": "Tinkoff",
+      "position": "Software developer",
+      "startDate": "2023-04-24",
+      "endDate": "",
       "highlights": [
-        "functional programming",
-        "scala",
-        "zio",
-        "cats",
+        "Functional programming",
+        "Scala",
+        "ZIO",
+        "Cats",
         "doobie",
         "fs2",
-        "cassandra",
-        "postgresql",
-        "kafka",
+        "Cassandra",
+        "PostgreSQL",
+        "Kafka",
         "..."
       ],
-      "summary": "breathtaking journey through the universe of distributed high-loaded systems :)",
+      "summary": "Breathtaking journey through the universe of distributed high-loaded systems :)",
       "url": "",
-      "location": "novosibirsk, russia"
+      "location": "Novosibirsk, Russia"
     },
     {
-      "company": "элдис-софт",
-      "position": "инженер программист (scala)",
-      "startdate": "2020-04-30",
-      "enddate": "2023-04-21",
-      "summary": "разрабатывал backend-сервисы для продуктовой линейки по автоматизации процессов регистраторов акционерных обществ рф. участвовал в двух проектах с нуля до ввода в эксплуатацию, оказывал техническую поддержку вовремя эксплуатации. дорабатывал под требования с учётом реальных задач и контекста эксплуатации.",
+      "company": "Элдис-Софт",
+      "position": "Инженер программист (Scala)",
+      "startDate": "2020-04-30",
+      "endDate": "2023-04-21",
+      "summary": "Разрабатывал backend-сервисы для продуктовой линейки по автоматизации процессов регистраторов акционерных обществ РФ. Участвовал в двух проектах с нуля до ввода в эксплуатацию, оказывал техническую поддержку вовремя эксплуатации. Дорабатывал под требования с учётом реальных задач и контекста эксплуатации.",
       "url": "https://eldis.ru",
-      "location": "новосибирск, россия",
+      "location": "Новосибирск, Россия",
       "highlights": [
         "",
-        "scala",
-        "cats",
+        "Scala",
+        "Cats",
         "doobie",
         "fs2",
         "http4s",
-        "postgresql",
-        "java"
+        "PostgreSQL",
+        "Java"
       ]
     },
     {
-      "company": "бкс - технологии",
-      "position": "ведущий инженер программист",
-      "startdate": "2018-04-30",
-      "enddate": "2020-04-30",
-      "summary": "я работал инженером-программистом в команде интеграции, обеспечивая критически важную для бизнеса интеграцию данных между бэк-офисными системами и корпоративной платформой. гарантировал стабильный обмен данными и поддерживал высокую производительность системы.",
+      "company": "БКС - Технологии",
+      "position": "Ведущий инженер программист",
+      "startDate": "2018-04-30",
+      "endDate": "2020-04-30",
+      "summary": "Я работал инженером-программистом в команде интеграции, обеспечивая критически важную для бизнеса интеграцию данных между бэк-офисными системами и корпоративной платформой. Гарантировал стабильный обмен данными и поддерживал высокую производительность системы.",
       "highlights": [
-        "разрабатывал и поддерживал надёжные модули обмена данными (выгрузка/загрузка), обеспечивая бесперебойный поток данных и стабильность бизнес-операций.",
-        "разрабатывал и обновлял xsd схемы, обеспечивал их внедрение в biztalk esb с сохранением стабильной работы всех зависимых компонентов.",
-        "оптимизировал тяжёлые sql-запросы и стратегию индексации, что значительно ускоряло работу системы и улучшало обмена данными и создание бизнес-отчётности.",
-        "продвигал практики автоматизированного тестирования в команде и помогал коллегам их освоить."
+        "Разрабатывал и поддерживал надёжные модули обмена данными (выгрузка/загрузка), обеспечивая бесперебойный поток данных и стабильность бизнес-операций.",
+        "Разрабатывал и обновлял XSD схемы, обеспечивал их внедрение в BizTalk ESB с сохранением стабильной работы всех зависимых компонентов.",
+        "Оптимизировал тяжёлые SQL-запросы и стратегию индексации, что значительно ускоряло работу системы и улучшало обмена данными и создание бизнес-отчётности.",
+        "Продвигал практики автоматизированного тестирования в команде и помогал коллегам их освоить."
       ],
       "url": "https://bcstech.ru",
-      "location": "novosibirsk, russia"
+      "location": "Novosibirsk, Russia"
     }
   ],
   "education": [
     {
-      "institution": "bratsk state university",
-      "area": "information technology",
-      "studytype": "engineer's degree",
-      "startdate": "2004-08-31",
-      "enddate": "2007-12-31",
+      "institution": "Bratsk State University",
+      "area": "Information Technology",
+      "studyType": "Engineer's degree",
+      "startDate": "2004-08-31",
+      "endDate": "2007-12-31",
       "score": "",
       "courses": []
     }
   ],
   "skills": [
     {
-      "name": "back-end",
+      "name": "Back-End",
       "level": "",
-      "keywords": ["scala", "sql", "ruby", "postgresql", "xsd", "soap", "java"]
+      "keywords": ["Scala", "SQL", "Ruby", "PostgreSQL", "XSD", "SOAP", "Java"]
     },
     {
-      "name": "scala",
+      "name": "Scala",
       "level": "",
-      "keywords": ["cats", "doobie", "http4s", "fs2", "tapir", "sbt"]
+      "keywords": ["Cats", "doobie", "http4s", "fs2", "tapir", "sbt"]
     },
     {
-      "name": "software development",
+      "name": "Software development",
       "level": "",
-        "keywords": ["functional programming", "test automation", "ci/cd", "clean code"]
+        "keywords": ["Functional programming", "Test automation", "CI/CD", "Clean code"]
     },
     {
-      "name": "devops",
+      "name": "DevOps",
       "level": "",
-      "keywords": ["nix", "gitlab/ci", "docker", "bash"]
+      "keywords": ["Nix", "GitLab/CI", "Docker", "Bash"]
     }
   ],
   "languages": [
     {
-      "fluency": "native speaker",
-      "language": "russian"
+      "fluency": "Native Speaker",
+      "language": "Russian"
     },
     {
-      "fluency": "professional working",
-      "language": "english"
+      "fluency": "Professional Working",
+      "language": "English"
     }
   ]
 }
