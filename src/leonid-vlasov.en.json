@@ -63,11 +63,11 @@
         "Java"
       ],
       "summary": "I worked as a back-end Scala developer and a project lead. Our team created business services and single-page web applications based on REST. Nothing unusual, but we used a functional approach, particularly Scala with Cats.",
-      "url": "",
+      "url": "https://eldis.ru",
       "location": "Novosibirsk, Russia"
     },
     {
-      "company": "FG BCS",
+      "company": "BCS - Technologies",
       "position": "Senior Software Engineer",
       "startDate": "2018-04-30",
       "endDate": "2020-04-30",
@@ -78,7 +78,7 @@
         "Optimized heavy SQL queries and indexing strategy, significantly improving system performance, data exchange, and business reporting.",
         "Promoted automated testing practices within the team and helped colleagues adopt them."
       ],
-      "url": "",
+      "url": "https://bcstech.ru",
       "location": "Novosibirsk, Russia"
     }
   ],

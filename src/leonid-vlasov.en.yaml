@@ -1,0 +1,51 @@
+cv:
+  name: "Leonid Vlasov"
+  location: "Novosibirsk, Russia"
+  email: "leoniv.vlasov@gmail.com"
+  phone: "+7 913 953-97-47"
+  social_networks:
+    - network: LinkedIn
+      username: "leoniv"
+    - network: "GitHub"
+      username: "leoniv"
+  sections:
+    summary:
+      - Business-value-oriented and open-minded software engineer with over 15 years of experience, passionate about cutting-edge technologies. I thrive in team environments and consider myself a responsible, hard-working, and ambitious professional. Functional programming enthusiast staying up to date with modern tools and best practices adopted by the software engineering community.
+    education:
+      - institution: "Bratsk State University"
+        area: "Information Technology"
+        degree: BS
+        start_date: "2004-08-31"
+        location: Bratsk, Russia
+        end_date: "2007-12-31"
+        highlights: []
+    experience:
+      - company: Tinkoff
+        position: "Software developer"
+        location: "Novosibirsk, Russia"
+        start_date: "2023-04-24"
+        highlights:
+          - "Functional programming"
+      - company: Eldis-Soft
+        position: "Scala Software engineer"
+        location: "Novosibirsk, Russia"
+        start_date: "2020-04-30"
+        end_date: "2023-04-21"
+        highlights:
+          - "Functional programming"
+      -
+        company: BKS Technologies ([link](https://bcstech.ru))
+        position: "Senior Software Engineer"
+        location: "Novosibirsk, Russia"
+        start_date: "2018-04-30"
+        end_date: "2020-04-30"
+        highlights:
+          - "Developed and maintained reliable data exchange modules (export/import), ensuring uninterrupted data flow and stability of business operations."
+          - "Developed and maintained XSD schemas, ensuring smooth integration into BizTalk ESB without disrupting dependent components."
+          - "Optimized heavy SQL queries and indexing strategy, significantly improving system performance, data exchange, and business reporting."
+          - "Promoted automated testing practices within the team and helped colleagues adopt them."
+    technologies:
+      - label: "Languages"
+        details: ""
+      - label: "Software"
+        details: ""
