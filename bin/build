@@ -2,11 +2,10 @@
 
 set -e
 
-if [ -z "$1" ]; then
-	echo usage: "$0 theme (onepage ...)"
-	exit 1
-fi
+outdir=./tmp/render_out
+mkdir -p $outdir
 
-./node_modules/.bin/resume export --theme $1 -r src/leonid-vlasov.en.json leonid-vlasov.ru.yaml
-# cp leonid-vlasov.en.html docs/index.html
+rendercv render --dont-generate-png -o $outdir src/leonid-vlasov.ru.yaml
+mv $outdir/Леонид_Власов_CV.html ./docs/index.html
+mv $outdir/Леонид_Власов_CV.pdf ./docs/leonid-vlasov.ru.pdf
 

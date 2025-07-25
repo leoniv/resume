@@ -1,389 +1,92 @@
-<!doctype html>
-<html>
-	<head>
+<!DOCTYPE html>
+<html lang="en">
 
-	<meta charset='utf-8'>
-	<meta name='viewport' content='width=device-width, user-scalable=no, minimal-ui'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        Леонид Власов's CV
+    </title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-light.min.css"
+        integrity="sha512-Pmhg2i/F7+5+7SsdoUqKeH7UAZoVMYb1sxGOoJ0jWXAEHP0XV2H4CITyK267eHWp2jpj7rtqWNkmEOw1tNyYpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/katex.min.css" integrity="sha384-PDbUeNCuE6bOPudPOgFyIUEy3UJawJVwr3XlGO90FIuf5qNIoTLSgOJo/dC2ZXV/" crossorigin="anonymous">
 
-	<title>Leonid Vlasov</title>
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/katex.min.js" integrity="sha384-VkqWq8xtm5YQk1BBXczQ8/Sx+DlCzF8cuS43bZwmtVXzRFtyLTqTCdP7MKmKo+KN" crossorigin="anonymous"></script>
 
-	<style>
-	body {
-  background: #EEEEEE;
-  font: 12px "Times New Roman", Times, sans-serif;
-  line-height: 1.4;
-  margin: 40px 0;
-}
-em {
-  color: #999;
-}
-p {
-  line-height: 1.4;
-}
-ul {
-  margin-bottom: 0;
-}
-li {
-  margin-bottom: 2px;
-}
-a {
-  text-decoration: none;
-}
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
+        onload="renderMathInElement(document.body, {delimiters: [{ left: '$$',  right: '$$',  display: false }]});"></script>
+    <style>
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+        }
 
-#resume {
-  margin: 0 auto;
-  max-width: 600px;
-  padding: 80px 100px;
-  background: #fff;
-  border: 1px solid #ccc;
-  box-shadow: 2px 2px 4px #aaa;
-  -webkit-box-shadow: 2px 2px 4px #aaa;
-}
+        @media (max-width: 767px) {
+            .markdown-body {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
 
-.coursesList {
-  width: 28%;
-  vertical-align: top;
-  display: inline-block;
-}
+<body>
+    <article class="markdown-body">
+        <h1>Леонид Власов's CV</h1>
+        <ul>
+        <li>Phone: +7 913 953 97 47</li>
+        <li>Email: <a href="mailto:leoniv.vlasov@gmail.com">leoniv.vlasov@gmail.com</a></li>
+        <li>Location: Новосибирск, Россия</li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/leoniv">leoniv</a></li>
+        <li>GitHub: <a href="https://github.com/leoniv">leoniv</a></li>
+        </ul>
+        <h1>О Себе</h1>
+        <p><strong>Инженер-программист</strong>, ориентированный на бизнес-ценности, с более чем 15-летним опытом работы в IT. Специализация — <strong>backend</strong>, последние 5 лет занимаюсь разработкой на <strong>Scala</strong> распределённых нагруженных сервисов. Эффективно работаю в команде, отвечаю за результат и стремлюсь к достижению общих целей. Энтузиаст функционального программирования, слежу за современными инструментами и лучшими практиками и применяю их в процессе работы.</p>
+        <h1>Образование</h1>
+        <h2>Братский государственный университет, Инженер in Информационные системы и технологии</h2>
+        <ul>
+        <li>Aug 2004 – Dec 2007</li>
+        <li>Братск, Россия</li>
+        </ul>
+        <h1>Навыки</h1>
+        <ul>
+        <li>Стек: Scala, Go, Java, Ruby, SQL, Cats, Cats-effect, ZIO, PostgreSQL, Cassandra, Kafka, SOAP, XSD, Docker, GitLab/CI, Nix, Kubernetes, Bash, Linux</li>
+        <li>Иностранный язык: Английский B2</li>
+        </ul>
+        <h1>Опыт</h1>
+        <h2>Т-Банк (<a href="https://www.tbank.ru/">link</a>), Senior Software Engineer (<strong>Scala</strong>)</h2>
+        <ul>
+        <li>Apr 2023 – present</li>
+        <li>Россия</li>
+        <li>Разработал единый сервис интеграции с порталом Госуслуги. Единый сервис существенно упрощает продуктовым командам доступ к сервисам портала для привлечения новых клиентов и предоставления клиентам сервисных функций. Это увеличивает конверсию, в 2024 г. помогло привлечь в банк 7+ миллионов человек и улучшает пользовательский опыт.</li>
+        <li>Разработал сервис перевода социальных выплат на счёт клиента в Т-Банк. Функция за счёт упрощения процедуры улучшает клиентский опыт и привлекает дополнительные средства в банк.</li>
+        <li>Разработал сервис перевода пенсионных выплат на счёт клиента в Т-Банк. Упростив процедуру, функция улучшает клиентский опыт и привлекает дополнительные средства в банк.</li>
+        <li>Разработал сервис для начисления и удержания комиссии за услуги банка у 1+ миллиона клиентов.</li>
+        </ul>
+        <h2>Элдис-Софт (<a href="https://eldis.ru/">link</a>), Senior Software Engineer (<strong>Scala</strong>)</h2>
+        <ul>
+        <li>Apr 2020 – Apr 2023</li>
+        <li>Новосибирск, Россия</li>
+        <li>Разработал группу сервисов для продукта <a href="https://eldis.ru/products/zenith-lki">Зенит-ЛКИ</a> — ЛКИ акционера.</li>
+        <li>Разработал серверную часть для продукта <a href="https://eldis.ru/products/zenith-meeting">Зенит-Собрание</a>, автоматизирующего процесс подготовки и проведения собраний в акционерных обществах РФ.</li>
+        </ul>
+        <h2>БКС Технологии (<a href="https://bcstech.ru">link</a>), Senior Software Engineer (<strong>1C</strong>)</h2>
+        <ul>
+        <li>Apr 2018 – Apr 2020</li>
+        <li>Россия</li>
+        <li>Разрабатывал и поддерживал надёжные модули обмена данными (выгрузка/загрузка), обеспечивая бесперебойный поток данных и стабильность бизнес-операций.</li>
+        <li>Разрабатывал и обновлял XSD-схемы, обеспечивал их внедрение в BizTalk ESB с сохранением стабильной работы всех зависимых компонентов.</li>
+        <li>Оптимизировал тяжёлые SQL-запросы и стратегию индексации, что значительно ускоряло работу системы и улучшало обмен данными и создание бизнес-отчётности.</li>
+        <li>Внедрил практики автоматизированного тестирования в команде и помогал коллегам их освоить.</li>
+        </ul>
+    </article>
+</body>
 
-.largeFont {
-  font-size: 20px;
-}
-
-.smallFont {
-  font-size: 12px;
-}
-
-.sectionBlock {
-  display: flex;
-  width: 100%;
-}
-
-.sectionName {
-  width: 18%;
-  vertical-align: top;
-  display: inline-block;
-}
-
-.sectionContent {
-  width: 80%;
-  vertical-align: top;
-  display: inline-block;
-}
-
-.sectionContent ul {
-  padding-left: 20px;
-  margin-top: 6px;
-  list-style-type: circle;
-}
-
-.sectionContent .title {
-  font-weight: bold;
-}
-
-.sectionContent .date {
-  float: right;
-}
-
-.sectionContent .separator {
-  height: 14px;
-}
-
-.sectionLine {
-  border-style: dashed;
-  border-width: 1px;
-  border-color: #CFCFCF;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.divider {
-  font-weight: bold;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.summary {
-  margin-top: 6px;
-}
-
-.skillBlock {
-  margin-bottom: 4px;
-}
-
-.jobBlock {
-  page-break-inside: avoid;
-}
-
-/* Media Queries */
-@media only screen and (max-width: 40em) {
-  body {
-    margin: 0;
-    font-size: 14px;
-  }
-  #resume {
-    margin: 0 auto;
-    max-width: 600px;
-    padding: 0.5em 1em;
-    border: none;
-  }
-  .sectionContent {
-    width: 100%;
-  }
-  .sectionContent .date {
-    padding-right: 2em;
-  }
-  .sectionName {
-    width: auto;
-  }
-  .largeFont {
-    font-size: 20px;
-  }
-  .smallFont {
-    font-size: 14px;
-  }
-}
-
-@media print {
-  #resume {
-    margin: 0 auto;
-    max-width: 600px;
-    padding: 0px 0px;
-    border: 0px;
-    background: #fff;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-  }
-
-  a {
-    color: black;
-  }
-}
-
-	</style>
-
-	</head>
-	<body>
-
-	<div id='resume'>
-  <div id='nameBlock' class='largeFont'>
-    <span class='name'>
-      Leonid Vlasov,
-    </span>
-    <span class='label'>Scala Software Engineer</span>
-  </div>
-  <div id='basicsBlock' class='smallFont'>
-    <div class='contactBlock'>
-      <span class='email'>leoniv.vlasov@gmail.com</span>
-        <span class='divider'>|</span>
-        <span class='address'>
-          Novosibirsk, Russia
-        </span>
-    </div>
-      <div id='profilesBlock'>
-            <span class='url'>
-              <a href='https://www.linkedin.com/in/leoniv/'>https://www.linkedin.com/in/leoniv/</a>
-            </span>
-            <span class='divider'>|</span>
-            <span class='url'>
-              <a href='https://github.com/leoniv'>https://github.com/leoniv</a>
-            </span>
-            
-      </div>
-  </div>
-  <div class='sectionLine'></div>
-
-  <div id='summaryBlock' class="sectionBlock">
-    <div class='sectionName'>
-      <span>SUMMARY</span>
-    </div>
-    <div class='sectionContent'>
-      <span>Professional software engineer with more then 15 years of experience and ability to solve challenging problems in the software development field. I am good at working in a team and I consider myself as a responsible, hard-working and ambitious specialist. I am on the top of up to date technologies, tools and the best practice which are taken by the software professionals&#x27; community.</span>
-    </div>
-  </div>
-  <div class='sectionLine'></div>
-
-  <div id='workBlock' class="sectionBlock">
-    <div class='sectionName'>
-      <span>EXPERIENCE</span>
-    </div>
-    <div class='sectionContent'>
-			<div class="jobBlock">
-	      <div class='blockHeader'>
-	        <span class='title'>
-	          Tinkoff, Software developer
-	        </span>
-	        <span class='date'>
-	          2023-04-24 &mdash; Present
-	        </span>
-	      </div>
-	      <div><a href=''></a></div>
-	      <ul class='highlights'>
-	        <li>Breathtaking journey through the universe of distributed high-loaded systems :)</li>
-	        <li>Functional programming</li>
-	        <li>Scala</li>
-	        <li>ZIO</li>
-	        <li>Cats</li>
-	        <li>doobie</li>
-	        <li>fs2</li>
-	        <li>Cassandra</li>
-	        <li>PostgreSQL</li>
-	        <li>Kafka</li>
-	        <li>...</li>
-	      </ul>
-	      <div class='separator'></div>
-			</div>
-			<div class="jobBlock">
-	      <div class='blockHeader'>
-	        <span class='title'>
-	          Eldis-soft, Scala Software engineer
-	        </span>
-	        <span class='date'>
-	          2020-04-30 &mdash; 2023-04-21
-	        </span>
-	      </div>
-	      <div><a href=''></a></div>
-	      <ul class='highlights'>
-	        <li>I worked as a back-end Scala developer and a project lead. Our team created business services and single-page web applications based on REST. Nothing unusual, but we used a functional approach, particularly Scala with Cats.</li>
-	        <li>Functional programming</li>
-	        <li>Scala</li>
-	        <li>Cats</li>
-	        <li>doobie</li>
-	        <li>fs2</li>
-	        <li>http4s</li>
-	        <li>PostgreSQL</li>
-	        <li>Java</li>
-	      </ul>
-	      <div class='separator'></div>
-			</div>
-			<div class="jobBlock">
-	      <div class='blockHeader'>
-	        <span class='title'>
-	          FG BCS, Senior Software Engineer
-	        </span>
-	        <span class='date'>
-	          2018-04-30 &mdash; 2020-04-30
-	        </span>
-	      </div>
-	      <div><a href=''></a></div>
-	      <ul class='highlights'>
-	        <li>I worked as a senior engineer in a system integration team. BCS is the biggest Russian stockbroker with a developed and high-loaded information system. My main responsibilities ware to develop integration utilities and to maintain of consistency shared data types.</li>
-	        <li>System integration</li>
-	        <li>1C:Enterprise</li>
-	        <li>High load</li>
-	        <li>SOAP</li>
-	        <li>XML Schema Definition (XSD)</li>
-	        <li>REST</li>
-	        <li>SQL</li>
-	      </ul>
-	      <div class='separator'></div>
-			</div>
-			<div class="jobBlock">
-	      <div class='blockHeader'>
-	        <span class='title'>
-	          Siberian Investment Group, Senior Software Engineer
-	        </span>
-	        <span class='date'>
-	          2012-01-31 &mdash; 2018-04-30
-	        </span>
-	      </div>
-	      <div><a href=''></a></div>
-	      <ul class='highlights'>
-	        <li>I worked as a software developer and support software engineer mostly for accounting subdivisions.</li>
-	        <li>System integration</li>
-	        <li>1C:Enterprise</li>
-	        <li>Ruby</li>
-	        <li>SQL</li>
-	        <li>Bash</li>
-	        <li>Git</li>
-	      </ul>
-	      
-			</div>
-    </div>
-  </div>
-  <div class='sectionLine'></div>
-
-
-
-
-	<div id='education' class="sectionBlock">
-    <div class='sectionName'>
-      <span>EDUCATION</span>
-    </div>
-    <div class='sectionContent'>
-      <div class='educationBlock'>
-        <span class='title'>
-          Bratsk State University
-        </span>
-        <span class='date'>
-          2004-08-31 &mdash; 2007-12-31
-        </span>
-        <div class=''>
-          Engineer&#x27;s degree  - Information Technology
-        </div>
-      </div>
-      
-    </div>
-	</div>
-  <div class='sectionLine'></div>
-
-	<div id='skills' class="sectionBlock">
-    <div class='sectionName'>
-      <span>SKILLS</span>
-    </div>
-    <div class='sectionContent'>
-      <div class='skillBlock'>
-        <span class='title'>Back-End:</span>
-          <span>Scala</span>, 
-          <span>SQL</span>, 
-          <span>Ruby</span>, 
-          <span>PostgreSQL</span>, 
-          <span>XSD</span>, 
-          <span>SOAP</span>, 
-          <span>Java</span>
-      </div>
-      <div class='skillBlock'>
-        <span class='title'>Scala:</span>
-          <span>Cats</span>, 
-          <span>doobie</span>, 
-          <span>http4s</span>, 
-          <span>fs2</span>, 
-          <span>tapir</span>, 
-          <span>sbt</span>
-      </div>
-      <div class='skillBlock'>
-        <span class='title'>Software development:</span>
-          <span>Functional programming</span>, 
-          <span>Test automation</span>, 
-          <span>CI/CD</span>, 
-          <span>Clean code</span>
-      </div>
-      <div class='skillBlock'>
-        <span class='title'>DevOps:</span>
-          <span>Nix</span>, 
-          <span>GitLab/CI</span>, 
-          <span>Docker</span>, 
-          <span>Bash</span>
-      </div>
-    </div>
-	</div>
-  <div class='sectionLine'></div>
-
-	<div id='languages' class="sectionBlock">
-    <div class='sectionName'>
-      <span>LANGUAGES</span>
-    </div>
-    <div class='sectionContent'>
-      <span class='language'>Russian</span>
-      <span class='fluency'><em>(Native Speaker)</em></span>
-      <span>,</span>
-      <span class='language'>English</span>
-      <span class='fluency'><em>(Professional Working)</em></span>
-      
-    </div>
-    <div class='sectionLine'></div>
-	</div>
-
-
-	</body>
 </html>
