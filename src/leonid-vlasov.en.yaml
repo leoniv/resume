@@ -4,48 +4,108 @@ cv:
   email: "leoniv.vlasov@gmail.com"
   phone: "+7 913 953-97-47"
   social_networks:
-    - network: LinkedIn
+    - network: "LinkedIn"
       username: "leoniv"
     - network: "GitHub"
       username: "leoniv"
   sections:
     summary:
-      - Business-value-oriented and open-minded software engineer with over 15 years of experience, passionate about cutting-edge technologies. I thrive in team environments and consider myself a responsible, hard-working, and ambitious professional. Functional programming enthusiast staying up to date with modern tools and best practices adopted by the software engineering community.
+      - '**Senior Software Engineer**, focused on business value, with over 15 years of experience in IT. Specializing in backend development, with the last 5 years dedicated to building distributed high-load services in Scala. I work effectively within a team, take responsibility for results, and work towards achieving common goals. A functional programming enthusiast, I stay up-to-date with modern tools and best practices, applying them in my work.'
     education:
-      - institution: "Bratsk State University"
-        area: "Information Technology"
-        degree: BS
+      - institution: Bratsk State University
+        degree: Engineer
+        area: "Information Systems and Technologies"
         start_date: "2004-08-31"
         location: Bratsk, Russia
         end_date: "2007-12-31"
         highlights: []
+    skills:
+      - label: Stack
+        details: Scala, Go, Java, Ruby, SQL, Cats, Cats-effect, ZIO, PostgreSQL, Cassandra, Kafka, SOAP, XSD, Docker, GitLab/CI, Nix, Kubernetes, Bash, Linux
+      - label: Languages
+        details: English (fluent), Russian (native)
+
     experience:
-      - company: Tinkoff
-        position: "Software developer"
-        location: "Novosibirsk, Russia"
-        start_date: "2023-04-24"
+      - company: T-Bank ([link](https://www.tbank.ru/))
+        position: 'Senior Software Engineer (**Scala**)'
+        location: Russia
+        start_date: 2023-04-24
+        summary: 'I develop backend for products at one of the largest digital banks in Europe. I ensure the full lifecycle: development, testing, deployment, and technical support. I analyze requirements, participate in creating specifications, and make architectural decisions.'
         highlights:
-          - "Functional programming"
-      - company: Eldis-Soft
-        position: "Scala Software engineer"
-        location: "Novosibirsk, Russia"
-        start_date: "2020-04-30"
-        end_date: "2023-04-21"
+          - 'Developed a unified service for integrating with the Russian state digital portal, increasing customer acquisition by 7+ million in 2024 and enhancing the user experience.'
+          - 'Created a service for transferring social payments to clients’ accounts at T-Bank, improving the customer experience and attracting additional funds.'
+          - 'Developed a service for transferring pension payments to clients’ accounts, streamlining the process and boosting customer experience and bank funds.'
+          - 'Designed a service for calculating and collecting fees from over 1 million clients.'
+
+      - company: Eldis-Soft ([link](https://eldis.ru/))
+        position: 'Senior Software Engineer (**Scala**)'
+        location: Novosibirsk, Russia
+        start_date: 2020-04-30
+        end_date: 2023-04-21
+        summary:
+          'Developed backend for products automating the work of companies maintaining registers of Russian joint-stock companies.'
         highlights:
-          - "Functional programming"
-      -
-        company: BKS Technologies ([link](https://bcstech.ru))
-        position: "Senior Software Engineer"
-        location: "Novosibirsk, Russia"
+          - 'Developed a suite of services for the [Zenith-LKI](https://eldis.ru/products/zenith-lki) product — an online investor’s personal account system.'
+          - 'Developed the backend for the [Zenith-Meeting](https://eldis.ru/products/zenith-meeting) product, automating the process of preparing and conducting meetings in Russian joint-stock companies.'
+
+      - company: BCS Financial Group ([link](https://bcs.ru))
+        location: Russia
+        position: "Senior Software Engineer (**1C:Enterprise**)"
         start_date: "2018-04-30"
         end_date: "2020-04-30"
+        summary: 'Worked in the integration team, ensuring critical business data integration between back-office systems and the corporate platform.'
         highlights:
-          - "Developed and maintained reliable data exchange modules (export/import), ensuring uninterrupted data flow and stability of business operations."
-          - "Developed and maintained XSD schemas, ensuring smooth integration into BizTalk ESB without disrupting dependent components."
-          - "Optimized heavy SQL queries and indexing strategy, significantly improving system performance, data exchange, and business reporting."
-          - "Promoted automated testing practices within the team and helped colleagues adopt them."
-    technologies:
-      - label: "Languages"
-        details: ""
-      - label: "Software"
-        details: ""
+          - 'Developed and maintained reliable data exchange modules (export/import), ensuring uninterrupted data flow and stability of business operations.'
+          - 'Developed and updated XSD schemas, ensuring their integration into BizTalk ESB while maintaining the stable operation of all dependent components.'
+          - 'Optimized complex SQL queries and indexing strategy, significantly improving system performance and enhancing data exchange and business reporting.'
+          - 'Implemented automated testing practices within the team and helped colleagues adopt them.'
+
+design:
+  theme: engineeringclassic
+  page:
+    size: a4
+    top_margin: 1cm
+    bottom_margin: 1cm
+    left_margin: 1.5cm
+    right_margin: 1cm
+    show_page_numbering: false
+    show_last_updated_date: false
+  header:
+    name_font_size: 20pt
+    name_bold: true
+    use_icons_for_connections: true
+    alignment: left
+    vertical_space_between_name_and_connections: 0.5cm
+    vertical_space_between_connections_and_first_section: 0.5cm
+    horizontal_space_between_connections: 0.5cm
+  section_titles:
+    type: with-parial-line
+    font_size: 1.0em
+    bold: false
+    vertical_space_above: 0.3cm
+    vertical_space_below: 0.3cm
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0.0cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 0.5cm
+  entry_types:
+    education_entry:
+      main_column_first_row_template: '**INSTITUTION**, AREA'
+      degree_column_template: '**DEGREE**'
+      degree_column_width: 2cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+  text:
+    font_family: Noto Sans
+    font_size: 11.7pt
+    leading: 0.6em
+    alignment: left
+  links:
+    underline: false
+    use_external_link_icon: true
+
