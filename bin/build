@@ -6,6 +6,9 @@ outdir=./tmp/render_out
 mkdir -p $outdir
 
 rendercv render --dont-generate-png -o $outdir src/leonid-vlasov.ru.yaml
-mv $outdir/Леонид_Власов_CV.html ./docs/index.html
+mv $outdir/Леонид_Власов_CV.html ./docs/leonid-vlasov.ru.html
 mv $outdir/Леонид_Власов_CV.pdf ./docs/leonid-vlasov.ru.pdf
+rendercv render --dont-generate-png -o $outdir src/leonid-vlasov.en.yaml
+mv $outdir/Leonid_Vlasov_CV.html ./docs/index.html
+mv $outdir/Leonid_Vlasov_CV.pdf ./docs/leonid-vlasov.en.pdf
 
