@@ -1,0 +1,146 @@
+:root {
+  --text-color: hsl(0, 0%, 20%);
+  --heading-color: hsl(0, 0%, 15%);
+  --muted-color: hsl(0, 0%, 50%);
+  --bg-left: hsl(0, 0%, 90%);
+  --contact-border: hsl(0, 0%, 70%);
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 0% 10% 0% 10%;
+  font-family: 'Consolas', monospace;
+  font-size: 18px;
+  color: var(--text-color);
+}
+a:link {
+  color: var(--heading-color);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--muted-color);
+  font-size: 22px;
+}
+a:visited {
+  color: var(--heading-color);
+}
+/* STYLES ALL HEADERS */
+h3 {
+  font-size: 1.3em;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-style: normal
+}
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+h5 {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+/*adjusts the h2 of the name, which is located under the picture */
+#name {
+  font-size: 2.8em;
+  font-weight: 900;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 100%;
+}
+/*adjusts the h3 dedicated to the Job Title only - located under the name */
+#jobTitle {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+/* END OF STYLING FOR HEADERS */
+
+/*CREATES A CONTAINER FOR THE TWO COLUMNS */
+.flex-container {
+  display: flex;
+}
+
+/* STYLING FOR THE LEFT COLUMN */
+/*sets the properties of the left column */
+#left {
+  width: 30%;
+  box-sizing: border-box;
+  background: var(--bg-left);
+  text-align: center;
+}
+
+/*box with Contact details in the left column*/
+#contact {
+  position: relative;
+  border: 2px var(--contact-border) solid;
+  box-sizing: border-box;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 55px;
+  margin-bottom: 30px;
+  min-height: 250px;
+  padding-bottom: 4%;
+  z-index: 0;
+}
+
+/*header which overlaps the border; includes Contact details */
+div div div h3 {
+  position: absolute;
+  top: -8%;
+  right: 20%;
+  left: 20%;
+  z-index: 1;
+  text-align: center;
+  background: var(--bg-left);
+}
+
+div div div h4 {
+  margin-top: 10%;
+}
+div div div p {
+  margin-top: 2%;
+  font-size: 1em;
+}
+
+/*sets the properties of the right column */
+#right {
+  width: 70%;
+  box-sizing: border-box;
+  padding: 2% 2%;
+  margin: 0;
+}
+
+/*styling for the image */
+img {
+  width: 33%;
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 2px black solid;
+}
+
+/* end of styling for the images */
+
+/*styling for <hr> - horizontal lines  */
+/*basic lines, all sections, both columns */
+hr {
+  display: block;
+  color: var(--contact-border);
+  text-align: center;
+}
+/* short line under the 'marketing manager' in the left column */
+#mainHR {
+  width: 25%;
+  border: 1px solid var(--contact-border);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.justified {
+  text-align: justify;
+}
