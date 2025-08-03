@@ -12,5 +12,5 @@ rendercv render --dont-generate-png -o $outdir src/leonid-vlasov.en.yaml
 mv $outdir/Leonid_Vlasov_CV.html ./docs/index.html
 mv $outdir/Leonid_Vlasov_CV.pdf ./docs/leonid-vlasov.en.pdf
 cp src/index.html ./docs/index.html
-cp -r src/css ./docs/css
+cp -r src/css ./docs/
 

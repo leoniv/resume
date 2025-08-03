@@ -47,7 +47,7 @@ cv:
         highlights:
           - 'Developed a suite of services for the [Zenith-LKI](https://eldis.ru/products/zenith-lki) product — an online investor’s personal account system.'
           - 'Developed the backend for the [Zenith-Meeting](https://eldis.ru/products/zenith-meeting) product, automating the process of preparing and conducting meetings in Russian joint-stock companies.'
-
+          - 'Implemented a binary TCP protocol in Scala, replacing SOAP and boosting data exchange performance 5–10×.'
       - company: BCS Financial Group ([link](https://bcs.ru))
         location: Russia
         position: "Senior Software Engineer (**1C:Enterprise**)"
@@ -58,7 +58,8 @@ cv:
           - 'Developed and maintained reliable data exchange modules (export/import), ensuring uninterrupted data flow and stability of business operations.'
           - 'Developed and updated XSD schemas, ensuring their integration into BizTalk ESB while maintaining the stable operation of all dependent components.'
           - 'Optimized complex SQL queries and indexing strategy, significantly improving system performance and enhancing data exchange and business reporting.'
-          - 'Implemented automated testing practices within the team and helped colleagues adopt them.'
+          - 'Improved the loading speed of the stock operations report at least 2× by identifying and removing redundant indexes based on usage statistics'
+          - 'Introduced automated testing practices to the team, significantly accelerating the delivery of new business features by reducing regression testing time from up to 3 days to just a few hours.'
 
 design:
   theme: engineeringclassic
@@ -102,7 +103,7 @@ design:
         DATE
   text:
     font_family: Noto Sans
-    font_size: 11.7pt
+    font_size: 10.6pt
     leading: 0.6em
     alignment: left
   links:

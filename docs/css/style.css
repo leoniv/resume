@@ -9,12 +9,14 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
 body {
   padding: 0% 10% 0% 10%;
   font-family: 'Consolas', monospace;
   font-size: 18px;
   color: var(--text-color);
 }
+
 a:link {
   color: var(--heading-color);
   text-decoration: none;
@@ -110,8 +112,9 @@ div div div p {
 #right {
   width: 70%;
   box-sizing: border-box;
-  padding: 2% 2%;
+  padding: 0.5% 2%;
   margin: 0;
+  font-size: 22px;
 }
 
 /*styling for the image */
