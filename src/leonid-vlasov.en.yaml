@@ -30,7 +30,8 @@ cv:
         position: 'Senior Software Engineer (**Scala**)'
         location: Russia
         start_date: 2023-04-24
-        summary: 'I develop backend for products at one of the largest digital banks in Europe. I ensure the full lifecycle: development, testing, deployment, and technical support. I analyze requirements, participate in creating specifications, and make architectural decisions.'
+        end_date: 2025-08-15
+        summary: 'I developed backend for products at one of the largest digital banks in Europe. I ensured the full lifecycle: development, testing, deployment, and technical support. I analyzed requirements, participated in creating specifications, and making architectural decisions.'
         highlights:
           - 'Developed a unified service for integrating with the Russian state digital portal, increasing customer acquisition by 7+ million in 2024 and enhancing the user experience.'
           - 'Created a service for transferring social payments to clients’ accounts at T-Bank, improving the customer experience and attracting additional funds.'
